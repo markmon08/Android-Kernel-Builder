@@ -1,0 +1,32 @@
+[  {
+    "kernelSource": {
+      "name": "HyperCx-Mark",
+      "repo": "markmon08/Kernel_Xiaomi_SM8150_R",
+      "branch": "V3",
+      "device": "raphael"
+    },
+    "withKernelSU": true,
+    "toolchains": [
+      {
+        "repo": "https://github.com/Akitlove/android-kernel-tools",
+        "branch": "clang13",
+        "name": "clang13",
+        "binPath": ["./bin"]
+      },
+      {
+        "repo": "https://github.com/Neutron-Toolchains/neutron-clang",
+        "branch": "18",
+        "name": "clang"
+      }
+    ],
+    "params": {
+      "ARCH": "arm64",
+      "CROSS_COMPILE": "aarch64-linux-gnu-",
+      "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
+      "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
+      "CLANG_TRIPLE": "aarch64-linux-gnu-",
+      "AR": "",
+      "CC": "clang"
+    }
+  }
+]
