@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "HyperCx-Mark",
       "repo": "https://github.com/markmon08/Kernel_Xiaomi_SM8150_R",
-      "branch": "base",
+      "branch": "main",
       "device": "raphael",
       "defconfig": "raphael_defconfig"
     },
@@ -46,7 +46,7 @@
     "kernelSource": {
       "name": "HyperCx-Mark",
       "repo": "https://github.com/markmon08/Kernel_Xiaomi_SM8150_R",
-      "branch": "base",
+      "branch": "main",
       "device": "raphael",
       "defconfig": "raphael_defconfig"
     },
@@ -89,7 +89,7 @@
     "kernelSource": {
       "name": "HyperCx-Mark",
       "repo": "https://github.com/markmon08/Kernel_Xiaomi_SM8150_R/tree/V3",
-      "branch": "base",
+      "branch": "main",
       "device": "raphael",
       "defconfig": "raphael_defconfig"
     },
