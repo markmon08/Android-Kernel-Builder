@@ -38,8 +38,8 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "V3"
+      "repo": "https://github.com/osm0sis/AnyKernel3",
+      "branch": "master"
     }
   },
   {
@@ -81,16 +81,16 @@
     "AnyKernel3": {
       "use": false,
       "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "V3"
+      "repo": "https://github.com/osm0sis/AnyKernel3",
+      "branch": "master"
     }
   },
   {
     "kernelSource": {
-      "name": "DogDay-KernelSU-Proton-anykernel-norelease",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
-      "branch": "lineage-20.0",
-      "device": "V3",
+      "name": "HyperCx-Mark",
+      "repo": "https://github.com/markmon08/Kernel_Xiaomi_SM8150_R/tree/V3",
+      "branch": "V3",
+      "device": "raphael",
       "defconfig": "raphael_defconfig"
     },
     "withKernelSU": true,
@@ -124,8 +124,8 @@
     "AnyKernel3": {
       "use": true,
       "release": false,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "V3"
+      "repo": "https://github.com/osm0sis/AnyKernel3",
+      "branch": "master"
     }
   }
 ]
