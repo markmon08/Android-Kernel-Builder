@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Xiaomi_Kernel_OpenSource-sdm845",
-      "repo": "https://github.com/Akitlove/Xiaomi_Kernel_OpenSource-sdm845",
+      "name": "Kernel_Xiaomi_SM8150_R/tree/V3",
+      "repo": "https://github.com/markmon08/Kernel_Xiaomi_SM8150_R/tree/V3",
       "branch": "88-zstd",
-      "device": "ursa",
-      "defconfig": "ursa_user_defconfig"
+      "device": "raphael",
+      "defconfig": "raphael_user_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
