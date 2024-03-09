@@ -166,8 +166,8 @@ jobs:
         env:
           arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
-          name: Image-${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}-${{ env.builddate }}
-          path: ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image
+          name: Image-$
+          path: $/arch/$/boot/Image
           if-no-files-found: ignore
           retention-days: 7
 
@@ -176,8 +176,8 @@ jobs:
         env:
           arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
-          name: Image.gz-${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}-${{ env.builddate }}
-          path: ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image.gz
+          name: Image.gz-$
+          path: $/arch/$/boot/Image.gz
           if-no-files-found: ignore
           retention-days: 7
 
@@ -186,8 +186,8 @@ jobs:
         env:
           arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
-          name: dtb-${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}-${{ env.builddate }}
-          path: ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/dtb
+          name: dtb-$
+          path: $/arch/$/boot/dtb
           if-no-files-found: ignore
           retention-days: 7
 
@@ -196,8 +196,8 @@ jobs:
         env:
           arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
-          name: dtbo.img-${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}-${{ env.builddate }}
-          path: ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/dtbo.img
+          name: dtbo.img-$
+          path: $/arch/$/boot/dtbo.img
           if-no-files-found: ignore
           retention-days: 7
 
@@ -208,8 +208,8 @@ jobs:
           anykernel: "${{ env.WORKSPACE }}/${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}_${{ env.builddate }}"
         run: |
           ls -al
-          if [ -e "${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image.gz-dtb" ]; then
-            cp -f ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image.gz-dtb ./AnyKernel3/
+          if [ -e "$/arch/$/boot/Image.gz-dtb" ]; then
+            cp -f $/arch/$/boot/Image.gz-dtb ./AnyKernel3/
           fi
 
           cd AnyKernel3/
