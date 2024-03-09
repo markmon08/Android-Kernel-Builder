@@ -140,10 +140,10 @@ jobs:
           make ${args}
 
       - name: "💫 Concatenate Image.gz and dtbo.img"
-        working-directory: ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/
+        working-directory: ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot
         run: |
           cat Image.gz dtbo.img > Image.gz-dtb
-
+          
       - name: "💛 Upload Image.gz-dtb"
         uses: actions/upload-artifact@v3
         env:
